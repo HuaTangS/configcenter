@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.191.128:8761/eureka/
+    registerWithEureke: true
+    fetcgRegistry: false
+spring:
+  application:     
+   name: USERSERVICE
+  datasource: 
+   url: jdbc:mysql://localhost/unit02
+   username: root
+   password: 123456
+   driver-class-name: com.mysql.jdbc.Driver  
+server:
+  port: 8882
+  
+  
+  
